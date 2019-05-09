@@ -2,15 +2,21 @@ package com.app;
 
 public class Employee {
 	
-	private int empId;
+	private String empNaame;
 
-	public int getEmpId() {
-		return empId;
+	public String getEmpNaame() {
+		return empNaame;
 	}
 
-	public void setEmpId(int empId) {
-		this.empId = empId;
+	public void setEmpNaame(String empNaame) {
+		this.empNaame = empNaame;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [empNaame=" + empNaame + "]";
+	}
+	
 	
 
 }
